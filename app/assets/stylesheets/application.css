@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+ table, th , td {border:1px solid black;}
+table, th, td {border-style:groove;}
+th, td {
+    padding: 5px;
+}
+.Completed {background-color: red;text-align:center}
+.done{color:rgb(180,160,200);}
